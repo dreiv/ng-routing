@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-crisis-list',
+  selector: 'app-not-found',
   template: `
-    <p>
-      crisis-list works!
-    </p>
+    <h2>Page not found</h2>
   `,
   styles: []
 })
-export class CrisisListComponent implements OnInit {
+export class NotFoundComponent implements OnInit {
 
   constructor() { }
 
